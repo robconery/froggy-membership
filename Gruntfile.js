@@ -12,8 +12,8 @@ module.exports = function(grunt){
 
 
   });
-
+  //adding a comment
   grunt.loadNpmTasks("grunt-contrib-jshint");
   grunt.loadNpmTasks("grunt-contrib-watch");
 
-}
+};
