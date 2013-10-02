@@ -1,0 +1,13 @@
+2013-10-01T15:28:30.265584000 0.255521s info: Creating directory /Users/rob/Sites/froggyfrog/membership/rethinkdb_data
+2013-10-01T15:28:30.266346000 0.256282s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/rob/Sites/froggyfrog/membership/rethinkdb_data' did not already exist.)
+2013-10-01T15:28:30.266388000 0.256325s info: Running rethinkdb 1.8.1 (CLANG 4.2 (clang-425.0.28))...
+2013-10-01T15:28:30.270707000 0.260644s info: Running on Darwin 12.5.0 x86_64
+2013-10-01T15:28:30.270730000 0.260667s info: Loading data from directory /Users/rob/Sites/froggyfrog/membership/rethinkdb_data
+2013-10-01T15:28:30.549256000 0.539238s info: Listening for intracluster connections on port 29015
+2013-10-01T15:28:30.551564000 0.541547s info: Listening for client driver connections on port 28015
+2013-10-01T15:28:30.551575000 0.541557s info: Listening for administrative HTTP connections on port 8080
+2013-10-01T15:28:30.551576000 0.541559s info: Listening on addresses: 127.0.0.1
+2013-10-01T15:28:30.551577000 0.541559s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-10-01T15:28:30.551577000 0.541559s info: by running rethinkdb with the `--bind all` command line option.
+2013-10-01T15:28:30.551577000 0.541560s info: Server ready
+2013-10-01T15:30:23.409954000 113.405145s info: Applying data {"databases":{"4fdfe3f5-758f-40a9-a9ee-216074049bdd":null}}
