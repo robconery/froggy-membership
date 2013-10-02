@@ -1,6 +1,6 @@
 {
-  "name": "froggyfrog-membership",
-  "version": "0.0.1",
+  "name": "membership",
+  "version": "0.0.2",
   "author": "Rob Conery",
   "description": "A Membership system patterned after Devise",
   "dependencies": {
