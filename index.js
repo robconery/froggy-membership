@@ -8,6 +8,12 @@ var Membership = function (dbName) {
   var self = this;
   events.EventEmitter.call(self);
 
+  self.findUserByToken = function(token,next){
+    db.connect({db : dbName}, function(err,db){
+      db.users.first({authenticationToken : token}, next);
+    });
+  };
+
   self.authenticate = function(email,password, next){
     db.connect({db : dbName}, function(err,db){
       var auth = new Authentication(db);
