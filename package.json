@@ -4,7 +4,7 @@
   "author": "Rob Conery",
   "description": "A Membership system patterned after Devise",
   "dependencies": {
-    "secondthought": "0.0.3",
+    "secondthought": "0.0.4",
     "bcrypt-nodejs": "0.0.3"
   },
   "devDependencies": {
