@@ -1,6 +1,8 @@
 var assert = require("assert");
 var utility = require("../lib/utility");
 
+//Our user prototype. This exports a Constructor that you must call,
+//this should never export an instance as it will be cached by NPM
 var User = function(args){
   assert.ok(args.email, "Email is required");
   var user = {};

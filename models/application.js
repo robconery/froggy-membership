@@ -1,4 +1,5 @@
-
+//this is an Application for membership (not our executable)
+//use this to call the Register routine
 var Application = function(args){
 
   var app = {};
